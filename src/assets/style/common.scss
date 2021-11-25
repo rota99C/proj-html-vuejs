@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+
+.golden_button_full {
+    background-color: $golden;
+    border-style: none;
+    padding: 8px 29px;
+    color: $white;
+    a:visited {
+      color: $white;
+    }
+  }
+.white_button_empty{
+        background-color: transparent;
+        border: solid 2px $white;
+        padding: 8px 29px;
+        color: $white;
+        a:visited {
+          color: $white;
+        }
+}
+
+.golden_button_empty{
+    background-color: transparent;
+    border: solid 2px $golden;
+    padding: 8px 29px;
+    color: $golden;
+    a:visited {
+      color: $golden;
+    }
+}

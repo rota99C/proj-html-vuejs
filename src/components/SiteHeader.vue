@@ -8,7 +8,7 @@
             {{ menuItem }}
           </a>
         </li>
-        <button class="golden_button">
+        <button class="golden_button_full">
           <a href="" class="text-decoration-none">DONATE</a>
         </button>
       </ul>
@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/style/common.scss";
 @import "../assets/style/variables.scss";
 #SiteHeader {
   height: 150px;
@@ -39,15 +40,6 @@ export default {
     }
     a:hover {
       color: $golden;
-    }
-  }
-  .golden_button {
-    background-color: $golden;
-    border-style: none;
-    padding: 8px 29px;
-    color: $white;
-    a:visited {
-      color: $white;
     }
   }
 }
