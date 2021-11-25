@@ -1,6 +1,5 @@
 @import "./variables.scss";
 
-
 .golden_button_full {
     background-color: $golden;
     border-style: none;
@@ -29,3 +28,8 @@
       color: $golden;
     }
 }
+
+// Monserrat
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300&display=swap");
+// Raleway
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");

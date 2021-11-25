@@ -1,5 +1,8 @@
 <template>
-  <div id="SiteJumbo" class="d-flex justify-content-center align-items-center">
+  <div
+    id="SiteJumbo"
+    class="d-flex justify-content-center align-items-center w-100"
+  >
     <div class="text-center">
       <h1 class="text-white mb-3">MAKE A DIFFERENCE</h1>
       <h4 class="text-white mb-5">
@@ -21,12 +24,10 @@ export default {};
 </script>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300&display=swap");
 #SiteJumbo {
   z-index: -1;
   position: absolute;
   top: 0;
-  width: 100%;
   background-image: url(../assets/img/home-page-slider.jpg);
   background-size: cover;
   height: 100vh;

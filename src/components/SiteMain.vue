@@ -1,9 +1,20 @@
 <template>
-  <div id="SiteMain"></div>
+  <div id="SiteMain">
+    <MainMission />
+    <section id="Mainvalues"></section>
+    <section id="Mainvalues"></section>
+    <section id="Mainaricles"></section>
+    <section id="Mainjoin"></section>
+  </div>
 </template>
 
 <script>
-export default {};
+import MainMission from "./MainMission.vue";
+export default {
+  components: {
+    MainMission,
+  },
+};
 </script>
 
 <style>
