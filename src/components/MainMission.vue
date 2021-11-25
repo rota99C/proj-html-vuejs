@@ -50,7 +50,7 @@
       <div>
         <p>
           <font-awesome-icon :icon="['fas', 'dollar-sign']" />
-          {{ numberDonations }} M
+          {{ numberDonation }} M
         </p>
         <p>Donated</p>
       </div>
@@ -86,7 +86,7 @@ export default {
   }
   hr {
     width: 30%;
-    height: 2px;
+    height: 1px;
     color: $golden;
     opacity: 1;
   }
