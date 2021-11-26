@@ -2,9 +2,10 @@
   <section id="MainCauses">
     <h1>RECENT CAUSES</h1>
     <hr />
-    <p>We run projects in over 30 countries in 5 continents</p>
-    <div>
-      <img v-for="image in images" :key="image" :src="images.src" alt="" />
+    <p class="mt-4">We run projects in over 30 countries in 5 continents</p>
+
+    <div class="container_caouses col-12 d-flex justify-content-center">
+      <img v-for="image in images" :key="image" :src="image.link" alt="" />
     </div>
   </section>
 </template>
@@ -15,16 +16,20 @@ export default {
     return {
       images: [
         {
-          src: "../assets/img/avada-charity-fair-trade-featured.jpg",
+          id: "1",
+          link: "https://avada.theme-fusion.com/charity/wp-content/uploads/sites/72/2016/08/avada-charity-fair-trade-featured.jpg",
         },
         {
-          src: "../assets/img/avada-charity-shelter-featured.jpg",
+          id: "2",
+          link: "https://avada.theme-fusion.com/charity/wp-content/uploads/sites/72/2016/08/avada-charity-shelter-featured.jpg",
         },
         {
-          src: "../assets/img/avada-charity-farming-featured.jpg",
+          id: "3",
+          link: "https://avada.theme-fusion.com/charity/wp-content/uploads/sites/72/2016/08/avada-charity-farming-featured.jpg",
         },
         {
-          src: "../assets/img/avada-charity-vaccines-featured.jpg",
+          id: "4",
+          link: "https://avada.theme-fusion.com/charity/wp-content/uploads/sites/72/2016/08/avada-charity-vaccines-featured.jpg",
         },
       ],
     };
@@ -34,9 +39,10 @@ export default {
 
 <style lang="scss">
 @import "../assets/style/common.scss";
+@import "../assets/style/variables.scss";
 #MainCauses {
   text-align: CENTER;
-  margin: 80px;
+  margin: 120px;
   h1 {
     font-family: "Montserrat", sans-serif;
   }
@@ -47,8 +53,16 @@ export default {
     opacity: 1;
     margin: 1rem auto;
   }
-  .images {
-    width: 100%;
+  p {
+    color: $jumbo;
+  }
+
+  .container_caouses {
+    margin: 70px auto;
+    img {
+      width: 20%;
+      margin: 0px 35px;
+    }
   }
 }
 </style>

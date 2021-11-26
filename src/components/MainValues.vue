@@ -5,7 +5,9 @@
       <hr />
       <h4 class="mt-4">Think Big. Act Bigger</h4>
     </div>
-    <div class="container-value d-flex text-center m-auto">
+    <div
+      class="container-value d-flex justify-content-center text-center col-12"
+    >
       <div class="col-3 ms-2 me-2" v-for="value in values" :key="value">
         <font-awesome-icon :icon="['fas', value.iconName]" />
         <h4 class="mb-4">{{ value.name }}</h4>
