@@ -5,11 +5,14 @@
       <hr />
       <h4 class="mt-4">Think Big. Act Bigger</h4>
     </div>
-    <div class="container-value d-flex text-center">
-      <div class="col-3" v-for="value in values" :key="value">
+    <div class="container-value d-flex text-center m-auto">
+      <div class="col-3 ms-2 me-2" v-for="value in values" :key="value">
         <font-awesome-icon :icon="['fas', value.iconName]" />
         <h4 class="mb-4">{{ value.name }}</h4>
         <p>{{ value.description }}</p>
+        <button class="golden_button_full">
+          <a href="" class="text-decoration-none">LEARN MORE</a>
+        </button>
       </div>
     </div>
   </section>
