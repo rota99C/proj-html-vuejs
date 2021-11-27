@@ -76,7 +76,7 @@ export default {
 
   hr {
     width: 10%;
-    height: 1px;
+    height: 3px !important;
     color: $golden;
     opacity: 1;
     margin: 1rem auto;

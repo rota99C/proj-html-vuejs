@@ -5,7 +5,7 @@
     <MainCauses />
     <MainAllCauses />
     <MainArticles />
-    <section id="Mainjoin"></section>
+    <MainJoin />
   </div>
 </template>
 
@@ -15,6 +15,7 @@ import MainValues from "./MainValues.vue";
 import MainCauses from "./MainCauses.vue";
 import MainAllCauses from "./MainAllCauses.vue";
 import MainArticles from "./MainArticles.vue";
+import MainJoin from "./MainJoin.vue";
 export default {
   components: {
     MainMission,
@@ -22,6 +23,7 @@ export default {
     MainCauses,
     MainAllCauses,
     MainArticles,
+    MainJoin,
   },
 };
 </script>

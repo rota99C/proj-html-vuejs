@@ -80,9 +80,10 @@ export default {
   text-align: center;
   margin: 120px;
   font-family: "Montserrat", sans-serif;
+
   hr {
     width: 10%;
-    height: 1px;
+    height: 3px;
     color: $golden;
     opacity: 1;
     margin: 1rem auto;
