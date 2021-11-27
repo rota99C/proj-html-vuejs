@@ -14,7 +14,13 @@
           <p class="title">Understanding community complexities</p>
           <p class="description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prasent ac
-            nibh vestibulum, laoreet ipsum.
+            nibh vestibulum, laoreet ipsum.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Prasent ac nibh vestibulum, laoreet
+            ipsum.Lorem ipsum dolor sit amet,<br />
+            <br />
+            consectetur adipiscing elit. Prasent ac nibh vestibulum, laoreet
+            ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Prasent ac nibh vestibulum, laoreet ipsum.
           </p>
         </div>
       </div>

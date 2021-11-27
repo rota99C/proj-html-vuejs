@@ -19,6 +19,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(fas)
 
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faFacebook)
+
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
