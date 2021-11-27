@@ -1,19 +1,47 @@
 @import "./variables.scss";
 
+// Monserrat
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300;600&display=swap");
+// Raleway
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"); 
+
 .golden_button_full {
     background-color: $golden;
     border-style: none;
-    padding: 8px 29px;
+    padding: 11px 29px;
     color: $white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
     a:visited {
       color: $white;
     }
   }
+
+.red_button_full {
+  background-color: $sienna;
+    border-style: none;
+    padding: 11px 29px;
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    a:visited {
+      color: $white;
+    }
+}
+
 .white_button_empty{
         background-color: transparent;
         border: solid 2px $white;
-        padding: 8px 29px;
+        padding: 11px 29px;
         color: $white;
+        font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
         a:visited {
           color: $white;
         }
@@ -22,14 +50,14 @@
 .golden_button_empty{
     background-color: transparent;
     border: solid 2px $golden;
-    padding: 8px 29px;
+    padding: 11px 29px;
     color: $golden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
     a:visited {
       color: $golden;
     }
 }
 
-// Monserrat
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@300&display=swap");
-// Raleway
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");

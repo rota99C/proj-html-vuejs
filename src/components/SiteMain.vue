@@ -4,7 +4,7 @@
     <MainValues />
     <MainCauses />
     <MainAllCauses />
-    <section id="Mainaricles"></section>
+    <MainArticles />
     <section id="Mainjoin"></section>
   </div>
 </template>
@@ -14,12 +14,14 @@ import MainMission from "./MainMission.vue";
 import MainValues from "./MainValues.vue";
 import MainCauses from "./MainCauses.vue";
 import MainAllCauses from "./MainAllCauses.vue";
+import MainArticles from "./MainArticles.vue";
 export default {
   components: {
     MainMission,
     MainValues,
     MainCauses,
     MainAllCauses,
+    MainArticles,
   },
 };
 </script>

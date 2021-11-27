@@ -35,6 +35,7 @@ export default {
   li {
     margin-right: 40px;
     color: $white;
+    font-family: "Montserrat", sans-serif;
     a:visited {
       color: $white;
     }
