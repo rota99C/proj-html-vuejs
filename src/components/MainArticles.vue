@@ -25,7 +25,11 @@
         </div>
       </div>
       <div class="col-6 d-flex flex-column justify-content-between">
-        <div class="d-flex p-4" v-for="article in articles" :key="article">
+        <div
+          class="article_image d-flex p-4"
+          v-for="article in articles"
+          :key="article"
+        >
           <img :src="article.image" />
           <div class="text-start ps-4">
             <p class="title">{{ article.title }}</p>
@@ -108,6 +112,13 @@ export default {
     .container_Articles_text {
       padding: 40px 20px;
       text-align: left;
+    }
+    .article_image {
+      img:hover {
+        width: 182px;
+        height: 148px;
+        box-shadow: 1px 2px 10px;
+      }
     }
   }
 }

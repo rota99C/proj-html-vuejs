@@ -18,6 +18,7 @@ export default {};
     height: 160px;
     background-color: $sienna;
     width: 100%;
+
     p {
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
@@ -25,6 +26,9 @@ export default {};
       color: $white;
       font-size: 18px;
     }
+  }
+  div:hover {
+    background-color: $tuna;
   }
 }
 </style>

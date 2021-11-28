@@ -25,12 +25,7 @@ export default {};
 
 <style lang="scss">
 #SiteJumbo {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  background-image: url(../assets/img/home-page-slider.jpg);
-  background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 150px);
   font-family: "Montserrat", sans-serif;
   h1 {
     font-size: 80px;

@@ -18,6 +18,9 @@
       color: $white;
     }
   }
+.golden_button_full:hover{
+  background-color: $thunder;
+}
 
 .red_button_full {
   background-color: $sienna;
@@ -31,6 +34,10 @@
     a:visited {
       color: $white;
     }
+}
+.red_button_full:hover{
+  background-color: $tuna;
+  
 }
 
 .white_button_empty{
@@ -46,6 +53,15 @@
           color: $white;
         }
 }
+.white_button_empty:hover{
+  border-color: $golden;
+  color: $golden;
+  a:visited{
+    color: $golden;
+  }
+}
+
+
 
 .golden_button_empty{
     background-color: transparent;
@@ -60,4 +76,15 @@
       color: $golden;
     }
 }
+
+.golden_button_empty:hover{
+  border-color: $white;
+  background-color: $thunder;
+  color: $white;
+  a:visited {
+    color: $white;
+  }  
+
+}
+
 

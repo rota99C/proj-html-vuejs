@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss">
 #Slideshow {
-  position: relative;
-  height: 100vh;
+  background-image: url(../assets/img/home-page-slider.jpg);
+  background-size: cover;
 }
 </style>
